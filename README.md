@@ -1,6 +1,6 @@
 # Projeto-pi---Ifocus
 
-- 1 Julia CSS
+- 1 Julia CSS e HTML
 - 2 Samanta CSS
 - 3 Bryan HTML
 - 4 Otávio HTML
