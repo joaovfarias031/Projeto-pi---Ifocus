@@ -109,4 +109,38 @@ body {
     background-color: #5d9b6765;
     margin-top: 50px;
   }
-  
+
+.banner{
+    width: 100%;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.canais{
+    text-align: center;
+    position: relative;
+    top: -250px;
+}
+
+.cienex{
+    text-align: center;
+    position: relative;
+    top: -750px;
+}
+.cienex .bio{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -400px;
+}
+
+.cienex .infbio{
+    padding-left: 280px;
+    position: relative;
+    top: -580px;
+}
