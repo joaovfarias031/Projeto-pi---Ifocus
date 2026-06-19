@@ -132,6 +132,7 @@ body {
     position: relative;
     top: -750px;
 }
+
 .cienex .bio{
     display: flex;
     justify-content: flex-start;
@@ -143,4 +144,30 @@ body {
     padding-left: 280px;
     position: relative;
     top: -580px;
+}
+
+.cienex .fis{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -940px;
+}
+
+.cienex .inffis{
+    padding-left: 880px;
+    position: relative;
+    top: -1120px;
+}
+
+.cienex .qui{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -1300px;
+}
+
+.cienex .infqui{
+    padding-left: 880px;
+    position: relative;
+    top: -1480px;
 }
