@@ -146,6 +146,20 @@ body {
     top: -580px;
 }
 
+.cienex .mat{
+    right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -1860px;
+}
+
+.cienex .infmat{
+    padding-left: 280px;
+    position: relative;
+    top: -2030px;
+}
+
 .cienex .fis{
     display: flex;
     justify-content: flex-end;
@@ -170,4 +184,63 @@ body {
     padding-left: 880px;
     position: relative;
     top: -1480px;
+}
+
+.ciehum{
+    text-align: center;
+    position: relative;
+    top: -2900px;
+}
+
+.ciehum .hist{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -400px;
+}
+
+.ciehum .infhist{
+    padding-left: 280px;
+    position: relative;
+    top: -580px;
+}
+
+.ciehum .geo{
+    right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -760px;
+}
+
+.ciehum .infgeo{
+    padding-left: 280px;
+    position: relative;
+    top: -950px;
+}
+
+.ciehum .filo{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -1465px;
+}
+
+.ciehum .inffilo{
+    padding-left: 880px;
+    position: relative;
+    top: -1660px;
+}
+
+.ciehum .socio{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -1840px;
+}
+
+.ciehum .infsocio{
+    padding-left: 880px;
+    position: relative;
+    top: -2030px;
 }
