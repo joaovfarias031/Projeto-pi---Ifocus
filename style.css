@@ -244,3 +244,25 @@ body {
     position: relative;
     top: -2030px;
 }
+
+.navbar-agenda {
+    background-color: #6a40a7;
+}
+
+.dias-semana {
+    background-color: #9b85bb;
+}
+
+.calendario {
+    background-color: #a890cb;
+}
+
+table {
+    empty-cells: show;
+    border-collapse: separate;
+
+}
+
+td {
+    padding: 25px;
+}
