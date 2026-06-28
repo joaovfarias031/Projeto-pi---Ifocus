@@ -249,12 +249,27 @@ body {
     background-color: #6a40a7;
 }
 
+.lista-navbar {
+    list-style-type: none;
+}
+
 .dias-semana {
     background-color: #9b85bb;
+    position: absolute;
+    left: 0px;
+    top: 37px;
+    width: 30%;
+    height: 95.6%;
+    
 }
 
 .calendario {
     background-color: #a890cb;
+    position: absolute;
+    left: 450px;
+    top: 37px;
+    width: 72.92%;
+    height: 95.6%;
 }
 
 table {
@@ -264,5 +279,33 @@ table {
 }
 
 td {
-    padding: 25px;
+    padding: 16px;
+}
+
+.tabela-calendario {
+    position: absolute;
+    left: 260px;
+    top: 100px;
+    width: 30.5%;
+   
+}
+
+.coluna-calendario {
+    padding: 40px;
+}
+
+.mes-ano-calerionda {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.tabela-dias-semana {
+    position: relative;
+    left: 75px;
+}
+
+.titulo-dia-semana {
+    position: relative;
+    left: 55px;
 }
