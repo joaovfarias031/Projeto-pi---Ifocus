@@ -294,8 +294,10 @@ td {
     padding: 40px;
 }
 
-.mes-ano-calerionda {
-    text-align: center;
+.mes-ano-calendario {
+    display: flex;
+    margin: auto;
+    justify-content: center;
     position: relative;
     top: 50px;
 }
