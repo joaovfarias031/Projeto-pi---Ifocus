@@ -245,6 +245,9 @@ body {
     top: -2030px;
 }
 
+.body-agenda {
+    background-color: #9b85bb;
+}
 .navbar-agenda {
     background-color: #6a40a7;
 
@@ -253,16 +256,16 @@ body {
 .lista-navbar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1.5;
     display: flex;
     justify-content: flex-end;
-    overflow: hidden;
 }
 
 .lista-navbar img {
-    width: 35px;
-    height: 35px;
+    width: 27px;
+    height: 27px;
     object-fit: cover;
+    display: block;
 }
 
 .dias-semana {
