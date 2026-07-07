@@ -10,9 +10,16 @@
 .metodos{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     gap: 20px;
     padding-top: 30px;  
+    padding-right: 150px;
+}
+
+.metodos img {
+    width: 60px;
+    height: auto;
+    
 }
 
 body {
