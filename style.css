@@ -349,3 +349,60 @@ td {
 .monitorias {
     
 }
+
+/*Dicas e metodos*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#edf8dc;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+section:first-of-type img{
+    width:100%;
+    display:block;
+}
+
+section:nth-of-type(2){
+    display:flex;
+    justify-content:center;
+    margin:25px 0 40px;
+}
+
+section:nth-of-type(2) img{
+    width:500px;
+}
+
+main{
+    width:90%;
+    margin:auto;
+}
+
+main section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:60px 50px;
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+}
+
+article img{
+    width:290px;
+    margin-bottom:18px;
+}
+
+article p{
+    font-size:20px;
+    line-height:34px;
+    text-align:justify;
+    color:#222;
+}
