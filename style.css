@@ -1,3 +1,6 @@
+
+/*inicio*/
+
 .agenda{
     padding-top: 90px;
 }
@@ -132,6 +135,8 @@ body {
     display: block;
 }
 
+/*CANAIS*/
+
 .canais{
     text-align: center;
     position: relative;
@@ -255,6 +260,8 @@ body {
     position: relative;
     top: -2030px;
 }
+
+/*AGENDA*/
 
 .body-agenda {
     background-color: #9b85bb;
