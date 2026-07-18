@@ -348,7 +348,7 @@ td {
 
 /*Dicas e metodos*/
 
-*{
+/**{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -402,3 +402,4 @@ article p{
     text-align:justify;
     color:#222;
 }
+    */
