@@ -264,7 +264,9 @@ body {
 /*AGENDA*/
 
 .body-agenda {
+    /*
     background-color: #9b85bb;
+    */
 }
 .navbar-agenda {
     background-color: #6a40a7;
@@ -287,23 +289,24 @@ body {
     display: block;
 }
 
+.main-agenda {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 .dias-semana {
     background-color: #9b85bb;
-    position: absolute;
-    left: 0%;
-    top: 3.8%;
-    width: 29%;
-    height: 96.1%;
+    width: 25%;
+    
     
 }
 
 .calendario {
     background-color: #a890cb;
-    position: absolute;
-    left: 29%;
-    top: 3.8%;
-    width: 71%;
-    height: 96.2%;
+    width: 75%;
+ 
 }
 
 table {
@@ -317,10 +320,9 @@ td {
 }
 
 .tabela-calendario {
-    position: absolute;
-    left: 320px;
-    top: 100px;
-    width: 30.5%;
+    display: flex;
+    justify-content: center;
+ 
    
 }
 
@@ -347,7 +349,7 @@ td {
 }
 
 /*Dicas e metodos*/
-
+/*
 *{
     margin:0;
     padding:0;
@@ -402,3 +404,5 @@ article p{
     text-align:justify;
     color:#222;
 }
+
+*/
