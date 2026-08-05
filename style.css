@@ -264,6 +264,9 @@ body {
 /*AGENDA*/
 
 .body-agenda {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
     /*
     background-color: #9b85bb;
     */
@@ -292,13 +295,16 @@ body {
 .main-agenda {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 
 
-.dias-semana {
+.dias-semana {  
     background-color: #9b85bb;
     width: 25%;
+    height: 100%;
+    
     
     
 }
@@ -306,28 +312,22 @@ body {
 .calendario {
     background-color: #a890cb;
     width: 75%;
+    height: 100%;
+    
  
-}
-
-table {
-    empty-cells: show;
-    border-collapse: separate;
-
-}
-
-td {
-    padding: 16px;
 }
 
 .tabela-calendario {
     display: flex;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
  
    
 }
 
 .coluna-calendario {
-    padding: 40px;
+    padding: 30px;
 }
 
 .mes-ano-calendario {
@@ -338,15 +338,77 @@ td {
     top: 50px;
 }
 
-.tabela-dias-semana {
-    position: relative;
-    left: 75px;
+.container-tabela {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+
 }
 
-.titulo-dia-semana {
+.dia {
     position: relative;
-    left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
 }
+
+.titulo-dia-semana  {
+    position: absolute;
+    top: -17px;
+    left: 30;
+    z-index: 10;
+    margin: 0;
+    padding: 2px, 14px;
+    font-size: 14px;
+    border: 1px solid black;
+    
+}
+
+.tabela-dias-semana {
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid black;
+   
+}
+
+.tabela-dias-semana td {
+    height: 38px;
+    border: 1px solid black;
+}
+
+.observacoes {
+    border: 2px solid black;
+    width: 79%;
+    height: 80px;
+    background-color: #cae4dc;
+}
+
+.dia:nth-child(odd) table{
+     background-color: #a18ac2;
+}
+
+.dia:nth-child(even) table{
+    background-color: #cae4dc;
+}
+
+.dia:nth-child(odd) h4{
+    background-color: #cae4dc;
+    color: black;
+}
+
+.dia:nth-child(even) h4{
+    background-color: #9b85bb;
+    color: white;
+}
+
+
+
+
+
+
 
 /*Dicas e metodos*/
 /*
