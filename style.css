@@ -135,6 +135,35 @@ body {
     display: block;
 }
 
+/*header do site*/
+
+.header{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.teto {
+    width: 70%;
+}
+
+.barra {
+    width: 15%;
+}
+
+.user {
+    width: 15%;
+}
+
+.contate-nos{
+    display: flex;
+    width: 50%;
+}
+
+.integrantes{
+    width: 50%;
+}
+
+
 /*CANAIS*/
 
 .canais{
