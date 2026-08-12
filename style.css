@@ -135,11 +135,11 @@ body {
     display: block;
 }
 
-/*header do site*/
+/*header e rodape do site*/
 
 .header{
     display: flex ;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .teto {
@@ -147,19 +147,27 @@ body {
 }
 
 .barra {
-    width: 15%;
+    margin-left: 95%;
+    width: 70%;
 }
 
 .user {
-    width: 15%;
+    margin-inline-end: auto;
+    width: 75%;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
 }
 
 .contate-nos{
-    display: flex;
+    flex-wrap: nowrap;
     width: 50%;
 }
 
 .integrantes{
+    margin-inline-end: auto;
     width: 50%;
 }
 
@@ -167,10 +175,41 @@ body {
 /*CANAIS*/
 
 .canais{
+    width: 100%;
     text-align: center;
     position: relative;
     top: -250px;
 }
+
+.titulo1 {
+    width: 80%;
+
+}
+.titulo2 {
+    width: 80%;
+    
+}
+.materia {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.materia2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.links2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 /*AGENDA*/
 
