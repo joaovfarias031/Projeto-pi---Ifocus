@@ -179,37 +179,32 @@ body {
     text-align: center;
     position: relative;
     top: -250px;
+    display: flex;            
+    justify-content: center;  
+    gap: 40px;
 }
 
-.titulo1 {
+.coluna {
+    width: 40%;                
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo1 .titulo2{
     width: 80%;
 
-}
-.titulo2 {
-    width: 80%;
-    
 }
 .materia {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    text-align: center;
 }
 .links {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
-.materia2 {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
-.links2{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 
 /*AGENDA*/
 
